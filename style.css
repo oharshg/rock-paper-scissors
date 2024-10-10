@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading-rps {
+  font-size: 30px;
+  font-weight: bold;
+}
+.move-icon {
+  height: 50px;
+}
+
+.move-btn {
+  padding: 30px;
+  border: 3px solid white;
+  margin-right: 15px;
+  background-color: transparent;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.css-result {
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.css-move-display {
+  /* font-size: 20px; */
+  padding-top: 10px;
+}
+.css-score {
+  padding-top: 30px;
+}
+.reset-score {
+  font-size: 15px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(164, 15, 15);
+  color: white;
+  cursor: pointer;
+}
+.reset-confirmation-btns {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 7px;
+}
