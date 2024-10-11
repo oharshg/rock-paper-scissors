@@ -33,11 +33,10 @@ const score = JSON.parse(localStorage.getItem('score')) || {
 displayScore();
 function calculateComputerMove() {
     let randNum = Math.random();
-
     if (randNum >= 0 && randNum < 1 / 3) {
         compMove = 'rock';
     }
-    if (randNum >= 1 / 3 && randNum < 2 / 3) {
+    else if (randNum >= 1 / 3 && randNum < 2 / 3) {
         compMove = 'paper';
     } else {
         compMove = 'scissors';
